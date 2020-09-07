@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Mukta-Bold.ttf">
+            <string>Mukta-Bold</string>
+        </array>
+        <array key="Mukta-Medium.ttf">
+            <string>Mukta-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="8YK-sj-c69">
+                                <rect key="frame" x="36" y="216" width="342" height="464"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="jYE-Ti-Zfd">
+                                        <rect key="frame" x="0.0" y="0.0" width="342" height="415"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="premie" translatesAutoresizingMaskIntoConstraints="NO" id="hhn-g4-kuN">
+                                                <rect key="frame" x="0.0" y="0.0" width="342" height="268"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="268" id="6fP-B9-zLd"/>
+                                                    <constraint firstAttribute="width" constant="342" id="yBa-oi-DPZ"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hmg-Yz-hs6" customClass="DesignableTextField" customModule="LoginApp" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="283" width="342" height="34"/>
+                                                <color key="tintColor" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="34" id="68T-xQ-7ls"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Mukta-Bold" family="Mukta" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="person" catalog="system"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <outlet property="delegate" destination="BYZ-38-t0r" id="FRI-vz-dZS"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JPe-yt-wF8" customClass="DesignableTextField" customModule="LoginApp" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="332" width="342" height="34"/>
+                                                <color key="tintColor" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="34" id="may-sX-kQe"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Mukta-Bold" family="Mukta" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="lock" catalog="system"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Bn7-NB-zZ1"/>
+                                                </connections>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3i-do-o2z" customClass="DesignButton" customModule="LoginApp" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="381" width="342" height="34"/>
+                                                <color key="backgroundColor" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="34" id="kXu-yN-oLh"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="342" id="kbZ-1G-XFN"/>
+                                                </constraints>
+                                                <state key="normal" title="Login">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XSJ-KI-3XX"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="INe-s6-MvK">
+                                        <rect key="frame" x="0.0" y="430" width="342" height="34"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SDt-bv-Pb4" customClass="DesignButton" customModule="LoginApp" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="163" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="34" id="4ph-mD-8ZY"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="163" id="IA8-aO-sw5"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="U27-gp-SFg"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="163" id="paW-m4-WLm"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Mukta-Medium" family="Mukta" pointSize="17"/>
+                                                <state key="normal" title="Forgot user">
+                                                    <color key="titleColor" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="forgotUserButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L8S-Ao-tNN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="headTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hn3-zL-laD" customClass="DesignButton" customModule="LoginApp" customModuleProvider="target">
+                                                <rect key="frame" x="179" y="0.0" width="163" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="34" id="62G-x9-dWh"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="163" id="BNc-pM-nwC"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Mukta-Medium" family="Mukta" pointSize="17"/>
+                                                <state key="normal" title="Forgot password">
+                                                    <color key="titleColor" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="forgotPasswordButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gCn-Qm-8Zt"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Hn3-zL-laD" firstAttribute="leading" secondItem="SDt-bv-Pb4" secondAttribute="trailing" constant="16" id="quy-yZ-RqQ"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8YK-sj-c69" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="14N-hH-knZ"/>
+                            <constraint firstItem="8YK-sj-c69" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="172" id="8nG-pS-yDC"/>
+                            <constraint firstItem="8YK-sj-c69" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="guf-iW-Jc1"/>
+                            <constraint firstItem="8YK-sj-c69" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="h98-ee-kRi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8YK-sj-c69" secondAttribute="trailing" constant="36" id="meJ-3Q-t1G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8YK-sj-c69" secondAttribute="bottom" constant="182" id="rXg-28-Y7v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="JPe-yt-wF8" id="SWW-tc-d2x"/>
+                        <outlet property="userNameTextField" destination="Hmg-Yz-hs6" id="okt-SQ-PCO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
+        </scene>
+        <!--Welcome View Controller-->
+        <scene sceneID="5bh-D2-PSZ">
+            <objects>
+                <viewController storyboardIdentifier="WelcomeViewController" id="4sN-Q4-4cx" customClass="WelcomeViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b9o-OZ-z87">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVW-zB-POF" customClass="DesignButton" customModule="LoginApp" customModuleProvider="target">
+                                <rect key="frame" x="20" y="64" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8y2-QY-PdK"/>
+                                    <constraint firstAttribute="width" constant="50" id="yiO-kf-ZcR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Mukta-Bold" family="Mukta" pointSize="21"/>
+                                <color key="tintColor" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="closeButtonTapped:" destination="4sN-Q4-4cx" eventType="touchUpInside" id="bjW-Tu-xY7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😇" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3s-EZ-8lM">
+                                <rect key="frame" x="20" y="298" width="374" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="am4-mc-5cg"/>
+                                    <constraint firstAttribute="height" constant="85" id="l2q-mP-AJ3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Mukta-Bold" family="Mukta" pointSize="40"/>
+                                <color key="textColor" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mO4-az-k3L">
+                                <rect key="frame" x="20" y="170" width="374" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="PwR-g7-uxB"/>
+                                    <constraint firstAttribute="height" constant="85" id="cVD-dF-4FM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Mukta-Bold" family="Mukta" pointSize="22"/>
+                                <color key="textColor" red="0.245448947" green="0.04633613676" blue="0.31858551499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KrV-x8-K0D" firstAttribute="trailing" secondItem="M3s-EZ-8lM" secondAttribute="trailing" constant="20" id="DSp-TL-Fct"/>
+                            <constraint firstItem="iVW-zB-POF" firstAttribute="leading" secondItem="KrV-x8-K0D" secondAttribute="leading" constant="20" id="Xlk-z5-IdB"/>
+                            <constraint firstItem="M3s-EZ-8lM" firstAttribute="top" secondItem="mO4-az-k3L" secondAttribute="bottom" constant="43" id="ipb-hO-Plr"/>
+                            <constraint firstItem="iVW-zB-POF" firstAttribute="top" secondItem="KrV-x8-K0D" secondAttribute="top" constant="20" id="jJd-yU-Inq"/>
+                            <constraint firstItem="mO4-az-k3L" firstAttribute="centerX" secondItem="b9o-OZ-z87" secondAttribute="centerX" id="kw7-QU-h5N"/>
+                            <constraint firstItem="mO4-az-k3L" firstAttribute="top" secondItem="iVW-zB-POF" secondAttribute="bottom" constant="56" id="qel-1I-hcM"/>
+                            <constraint firstItem="KrV-x8-K0D" firstAttribute="trailing" secondItem="mO4-az-k3L" secondAttribute="trailing" constant="20" id="yxI-0U-z6T"/>
+                            <constraint firstItem="M3s-EZ-8lM" firstAttribute="centerX" secondItem="b9o-OZ-z87" secondAttribute="centerX" id="zLL-s6-eJx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KrV-x8-K0D"/>
+                    </view>
+                    <connections>
+                        <outlet property="welcomeLabel" destination="mO4-az-k3L" id="wq6-ap-kG7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yMZ-Ag-2iU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902.89855072463774" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lock" catalog="system" width="128" height="128"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="premie" width="2000" height="2000"/>
+    </resources>
+</document>

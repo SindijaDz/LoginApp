@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		1F956C6D250690A4000FC2D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F956C6C250690A4000FC2D1 /* AppDelegate.swift */; };
 		1F956C6F250690A4000FC2D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F956C6E250690A4000FC2D1 /* SceneDelegate.swift */; };
-		1F956C71250690A4000FC2D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F956C70250690A4000FC2D1 /* ViewController.swift */; };
+		1F956C71250690A4000FC2D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F956C70250690A4000FC2D1 /* LoginViewController.swift */; };
 		1F956C74250690A4000FC2D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F956C72250690A4000FC2D1 /* Main.storyboard */; };
 		1F956C76250690A6000FC2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F956C75250690A6000FC2D1 /* Assets.xcassets */; };
 		1F956C79250690A6000FC2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F956C77250690A6000FC2D1 /* LaunchScreen.storyboard */; };
+		1F956C8625069289000FC2D1 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F956C8525069289000FC2D1 /* BounceButton.swift */; };
+		1F956C882506929F000FC2D1 /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F956C872506929F000FC2D1 /* DesignButton.swift */; };
+		1F956C8A2506960E000FC2D1 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F956C892506960E000FC2D1 /* DesignableTextField.swift */; };
+		1F956C8C25069807000FC2D1 /* Mukta-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F956C8B25069806000FC2D1 /* Mukta-Medium.ttf */; };
+		1F956C8E25069815000FC2D1 /* Mukta-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F956C8D25069815000FC2D1 /* Mukta-Bold.ttf */; };
+		1F956C9025069A56000FC2D1 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F956C8F25069A56000FC2D1 /* Extension.swift */; };
+		1F956C9225069F57000FC2D1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F956C9125069F57000FC2D1 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F956C69250690A4000FC2D1 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F956C6C250690A4000FC2D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F956C6E250690A4000FC2D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F956C70250690A4000FC2D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F956C70250690A4000FC2D1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1F956C73250690A4000FC2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F956C75250690A6000FC2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F956C78250690A6000FC2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F956C7A250690A6000FC2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F956C8525069289000FC2D1 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		1F956C872506929F000FC2D1 /* DesignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignButton.swift; sourceTree = "<group>"; };
+		1F956C892506960E000FC2D1 /* DesignableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		1F956C8B25069806000FC2D1 /* Mukta-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mukta-Medium.ttf"; sourceTree = "<group>"; };
+		1F956C8D25069815000FC2D1 /* Mukta-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mukta-Bold.ttf"; sourceTree = "<group>"; };
+		1F956C8F25069A56000FC2D1 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		1F956C9125069F57000FC2D1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,62 @@
 		1F956C6B250690A4000FC2D1 /* LoginApp */ = {
 			isa = PBXGroup;
 			children = (
-				1F956C6C250690A4000FC2D1 /* AppDelegate.swift */,
-				1F956C6E250690A4000FC2D1 /* SceneDelegate.swift */,
-				1F956C70250690A4000FC2D1 /* ViewController.swift */,
-				1F956C72250690A4000FC2D1 /* Main.storyboard */,
+				1F956C842506925E000FC2D1 /* Extra resources */,
+				1F956C8325069250000FC2D1 /* Extension */,
+				1F956C802506922C000FC2D1 /* App Delegate */,
+				1F956C812506923C000FC2D1 /* Controller */,
+				1F956C8225069246000FC2D1 /* View */,
 				1F956C75250690A6000FC2D1 /* Assets.xcassets */,
 				1F956C77250690A6000FC2D1 /* LaunchScreen.storyboard */,
 				1F956C7A250690A6000FC2D1 /* Info.plist */,
 			);
 			path = LoginApp;
+			sourceTree = "<group>";
+		};
+		1F956C802506922C000FC2D1 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1F956C6C250690A4000FC2D1 /* AppDelegate.swift */,
+				1F956C6E250690A4000FC2D1 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		1F956C812506923C000FC2D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F956C70250690A4000FC2D1 /* LoginViewController.swift */,
+				1F956C9125069F57000FC2D1 /* WelcomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F956C8225069246000FC2D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F956C72250690A4000FC2D1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F956C8325069250000FC2D1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1F956C8F25069A56000FC2D1 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1F956C842506925E000FC2D1 /* Extra resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F956C892506960E000FC2D1 /* DesignableTextField.swift */,
+				1F956C8525069289000FC2D1 /* BounceButton.swift */,
+				1F956C872506929F000FC2D1 /* DesignButton.swift */,
+				1F956C8B25069806000FC2D1 /* Mukta-Medium.ttf */,
+				1F956C8D25069815000FC2D1 /* Mukta-Bold.ttf */,
+			);
+			path = "Extra resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F956C8C25069807000FC2D1 /* Mukta-Medium.ttf in Resources */,
 				1F956C79250690A6000FC2D1 /* LaunchScreen.storyboard in Resources */,
 				1F956C76250690A6000FC2D1 /* Assets.xcassets in Resources */,
+				1F956C8E25069815000FC2D1 /* Mukta-Bold.ttf in Resources */,
 				1F956C74250690A4000FC2D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F956C71250690A4000FC2D1 /* ViewController.swift in Sources */,
+				1F956C71250690A4000FC2D1 /* LoginViewController.swift in Sources */,
+				1F956C9225069F57000FC2D1 /* WelcomeViewController.swift in Sources */,
+				1F956C8A2506960E000FC2D1 /* DesignableTextField.swift in Sources */,
+				1F956C9025069A56000FC2D1 /* Extension.swift in Sources */,
+				1F956C8625069289000FC2D1 /* BounceButton.swift in Sources */,
 				1F956C6D250690A4000FC2D1 /* AppDelegate.swift in Sources */,
 				1F956C6F250690A4000FC2D1 /* SceneDelegate.swift in Sources */,
+				1F956C882506929F000FC2D1 /* DesignButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
